@@ -1,6 +1,6 @@
 #-*- coding: UTF-8 -*-
-h=float(input("请输入您的身高"))
-w=float(input("请输入您的体重"))
+h=float(input("请输入您的身高(米)"))
+w=float(input("请输入您的体重(公斤)"))
 bmi=w/(h*h)
 if bmi<18.5:
     print("过轻")
